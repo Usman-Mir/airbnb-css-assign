@@ -1,0 +1,120 @@
+body {
+    /* font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; */
+    background-color: #f7f7f7;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    height: 30px;
+}
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ .navbar .menu a {
+    text-decoration:none;
+    color: #333;
+    font-size: 14px;
+} 
+.navbar .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} 
+.navbar .right-section a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar .right-section #last2chid{
+    /* border: 1px solid #333; */
+    box-shadow: 0px 1px 3px #725959 ;
+    border-radius: 25px;
+    padding:0px 2px 0px 5px;
+}
+.navbar .right-section img {
+    height: 9px;
+} 
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0px 1px 3px #725959  ;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    gap: 15px;
+}
+.search-bar div {
+    display: flex;
+    flex-direction: column;
+    
+}
+.search-bar span:first-child {
+    font-size: 12px;
+    color: gray;
+}
+.search-bar span:last-child {
+    font-size: 14px;
+    color: black;
+}
+#hr1{
+    width: 1px; 
+    height: 30px; 
+    background-color: black; 
+    /* border: none; */
+}
+#hr2{
+    width: 1px; 
+    height: 30px; 
+    background-color: black; 
+    /* border: none; */
+}
+#hr3{
+    width: 1px; 
+    height: 30px; 
+    background-color: black; 
+    /* border-left: #333; */
+}
+.search-icon span img{ 
+    background-color: #ff2d54;
+    color: white;
+    height: 20px;
+    width:20px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box1 img{
+    border-radius: 20px;
+}
+.box1{
+    margin-left: 15px;
+    line-height: 30px;
+}
+.box1:hover{
+    box-shadow:0px 1px 3px rgba(0, 0, 0, 0.2) ;
+}
